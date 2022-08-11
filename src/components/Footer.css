@@ -1,0 +1,21 @@
+.footer-container {
+    margin-top: 6vh;
+    display: flex;
+    justify-content: center;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    padding: 1vh;
+    background-color: black;
+}
+
+.title-container > a {
+    text-decoration: none;
+    background-color: black;
+    font-weight: lighter;
+    color: whitesmoke;
+    font-size: 1.2rem;
+}
+
