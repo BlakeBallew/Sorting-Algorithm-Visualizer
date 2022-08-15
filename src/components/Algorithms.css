@@ -10,6 +10,7 @@
 
 .bars-container {
     display: flex;
+    height: 75vh;
 }
 
 .container {

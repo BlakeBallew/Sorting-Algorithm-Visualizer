@@ -40,7 +40,7 @@ const merge = async (arr, l, m, r, updateIndices) => {
   j = 0;
   k = l;
   while (i < n1 && j < n2) {
-    await sleep(10);
+    await sleep(15);
     updateIndices([l + i, m + 1 + j, k]);
     if (L[i] <= R[j]) {
       arr[k] = L[i];
@@ -56,7 +56,7 @@ const merge = async (arr, l, m, r, updateIndices) => {
    * Copy the remaining elements of L, if there are any
    */
   while (i < n1) {
-    await sleep(5);
+    await sleep(15);
     updateIndices([l + i, m + 1 + j, k]);
     arr[k] = L[i];
     i++;

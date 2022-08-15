@@ -12,7 +12,7 @@ const Footer = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Sorting Algorithms by Blake Ballew
+          Sorting Algorithm Visualizer by Blake Ballew
         </a>
       </div>
     </div>
